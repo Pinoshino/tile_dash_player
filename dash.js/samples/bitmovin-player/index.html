@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script type="text/javascript" src="https://bitmovin-a.akamaihd.net/bitmovin-player/stable/7.3/bitmovinplayer.js"></script>
+  </head>
+
+  <body>
+    <div id="my-player"></div>
+    <script type="text/javascript" src="//bitmovin-a.akamaihd.net/bitmovin-analytics/stable/1/bitmovinanalytics.min.js"></script>
+    <script type="text/javascript">
+
+      var player = bitmovin.player('my-player');
+
+      var bitanalyticsConfig = {
+          key: "30a1a614-2293-4e7f-9dde-d853ce839ee4"
+      };
+      var analytics = bitmovin.analytics(bitanalyticsConfig);
+
+      var playerConfig = {
+        key: "6f7be724-145c-49d3-b4be-a5d9895ed84f",
+        source: {
+          dash: "//133.9.250.223/dif-dash-content/shinohara/360_movies/roller_360_90s_whole_high.mpd",
+          vr: {
+             contentType: bitmovin.player.VR.CONTENT_TYPE.SINGLE,
+             startPosition: 180,
+             initialRotation: true,
+             initialRotateRate: 0.025
+          }
+          // dash: "//bitmovin-a.akamaihd.net/content/MI201109210084_1/mpds/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.mpd",
+          // hls: "//bitmovin-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8",
+          // progressive: "//bitmovin-a.akamaihd.net/content/MI201109210084_1/MI201109210084_mpeg-4_hd_high_1080p25_10mbits.mp4",
+          // poster: "//bitmovin-a.akamaihd.net/content/MI201109210084_1/poster.jpg"
+        }
+      }; // Set up your Bitmovin Player Configuration
+
+      // Instrument the Player with Analytics
+      analytics.register(player);
+
+      player.setup(playerConfig).then(function(playerInstance) {
+        console.log('Successfully created Bitmovin Player instance');
+      }, function(reason) {
+        console.log('Error while creating Bitmovin Player instance');
+      });
+    </script>
+  </body>
+</html>

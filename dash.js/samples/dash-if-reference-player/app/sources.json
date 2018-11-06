@@ -1,0 +1,69 @@
+{
+  "items": [
+    {
+      "name": "Movie Select",
+      "submenu": [
+        {
+          "url": "http://133.9.250.223/dif-dash-content/shinohara/360_roller_movies/roller_coaster_whole_60.mpd",
+          "name": "1"
+        },
+        {
+          "url": "http://133.9.250.223/dif-dash-content/shinohara/360_roller_movies/roller_coaster_whole_2a.mpd",
+          "name": "2a"
+        },
+        {
+          "url": "http://133.9.250.223/dif-dash-content/shinohara/360_roller_movies/roller_coaster_whole_2b.mpd",
+          "name": "2b"
+        },
+        {
+          "url": "http://133.9.250.223/dif-dash-content/shinohara/360_roller_movies/roller_coaster_whole_4a.mpd",
+          "name": "4a"
+        },
+        {
+          "url": "http://133.9.250.223/dif-dash-content/shinohara/360_roller_movies/roller_coaster_whole_4b.mpd",
+          "name": "4b"
+        },
+        {
+          "url": "http://133.9.250.223/dif-dash-content/shinohara/360_roller_movies/roller_coaster_whole_4c.mpd",
+          "name": "4c"
+        },
+        {
+          "url": "http://133.9.250.223/dif-dash-content/shinohara/360_roller_movies/roller_coaster_whole_4d.mpd",
+          "name": "4d"
+        },
+        {
+          "url": "http://133.9.250.223/dif-dash-content/shinohara/360_roller_movies/roller_coaster_whole_8a.mpd",
+          "name": "8a"
+        },
+        {
+          "url": "http://133.9.250.223/dif-dash-content/shinohara/360_roller_movies/roller_coaster_whole_8b.mpd",
+          "name": "8b"
+        },
+        {
+          "url": "http://133.9.250.223/dif-dash-content/shinohara/360_roller_movies/roller_coaster_whole_8c.mpd",
+          "name": "8c"
+        },
+        {
+          "url": "http://133.9.250.223/dif-dash-content/shinohara/360_roller_movies/roller_coaster_whole_8d.mpd",
+          "name": "8d"
+        },
+        {
+          "url": "http://133.9.250.223/dif-dash-content/shinohara/360_roller_movies/roller_coaster_whole_8e.mpd",
+          "name": "8e"
+        },
+        {
+          "url": "http://133.9.250.223/dif-dash-content/shinohara/360_roller_movies/roller_coaster_whole_8f.mpd",
+          "name": "8f"
+        },
+        {
+          "url": "http://133.9.250.223/dif-dash-content/shinohara/360_roller_movies/roller_coaster_whole_8g.mpd",
+          "name": "8g"
+        },
+        {
+          "url": "http://133.9.250.223/dif-dash-content/shinohara/360_roller_movies/roller_coaster_whole_8h.mpd",
+          "name": "8h"
+        }
+      ]
+    }
+  ]
+}
