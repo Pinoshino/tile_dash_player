@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns="urn:mpeg:DASH:schema:MPD:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 DASH-MPD.xsd" minBufferTime="PT2S" type="static" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" mediaPresentationDuration="PT60.06666564941406S">
+  <Period>
+    <AdaptationSet id="0">
+      <Representation id="0" bandwidth="23794534" codecs="avc1.640033" mimeType="video/mp4" width="3840" height="2160">
+        <BaseURL>out_non_roi_coaster_60s.mp4</BaseURL>
+        <SegmentBase indexRange="678-757" timescale="15360">
+          <Initialization range="0-677"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
